@@ -1,0 +1,15 @@
+.btn-form {
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-form > button {
+    text-align: center;
+    font-weight: bold;
+}

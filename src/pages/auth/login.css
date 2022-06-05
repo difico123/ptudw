@@ -1,0 +1,37 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 100px;
+    background-image: url("../../../public/svg.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+}
+.form-wraper {
+    border: 1px solid #ccc;
+    padding: 100px 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.input-login {
+    margin: 10px 0;
+    background-color: rgb(232, 240, 254);
+    border-radius: 10px;
+}
+.input-login > input {
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(232, 240, 254);
+}
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
